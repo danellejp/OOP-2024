@@ -49,6 +49,20 @@ public class Arrays extends PApplet
 
 		println("The month with the highest rainfall is " + months[maxIndex] + " with " + rainfall[maxIndex] + "mm");
 
+		//finding the total and average rainfall:
+		float tot = 0;
+		for(float f : rainfall)
+		{
+			tot += f;
+		}
+
+		println("The total rainfall is " + tot + "mm");
+
+		//finding the average rainfall:
+		float avg = tot / rainfall.length;
+		println("The average rainfall is " + avg + "mm");
+
+
 
 
 	}
@@ -72,3 +86,5 @@ public class Arrays extends PApplet
 	}
 
 }
+
+//git log --oneline --graph --all
