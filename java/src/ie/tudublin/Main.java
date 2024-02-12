@@ -49,13 +49,13 @@ public class Main
 		nuala.speak();
 
 		Cat atuma = new Cat("Atuma");
-		atuma.speak();
+		// atuma.speak();
 
 		Animal larry = new Dog("Larry");
 		larry.speak();
 
 
-		larry = new Cat("TopCat");
+		// larry = new Cat("TopCat");
 		larry.speak();
 
 		Animal a = new Dog("A");
@@ -63,8 +63,8 @@ public class Main
 		Animal c = a;
 		a.setName("G");
 
-		System.out.println(a.getName());
-		System.out.println("C: " + c.getName());
+		// System.out.println(a.getName());
+		// System.out.println("C: " + c.getName());
 		
 
 
