@@ -14,6 +14,7 @@ public class Dog
 	// Member of the Dog class
 	public Dog()
 	{
+		//this();
 		this.name = "rescue puppy";
 	}
 	
